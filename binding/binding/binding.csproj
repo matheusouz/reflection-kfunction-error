@@ -1,0 +1,16 @@
+﻿<Project Sdk="Xamarin.Legacy.Sdk/0.2.0-alpha4">
+    <PropertyGroup>
+        <TargetFrameworks>monoandroid13.0;net8.0-android</TargetFrameworks>
+        <IsBindingProject>true</IsBindingProject>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AndroidClassParser>class-parse</AndroidClassParser>
+    </PropertyGroup>
+    <ItemGroup>
+        <LibraryProjectZip Include="..\..\nativeproject\app\build\outputs\aar\app-debug.aar">
+          <Link>Jars\app-debug.aar</Link>
+        </LibraryProjectZip>
+    </ItemGroup>
+
+</Project>
